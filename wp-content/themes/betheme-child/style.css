@@ -11,4 +11,34 @@ Version: 		1.6
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
+/* 전체적용 */
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
+h1, h2, h3, h4, h5, h6{font-weight:bold;}
+
+ul, li{list-style:none;margin:0;padding:0;}
+a:link, a:hover, a:active, a:visited {text-decoration:none;}
+
+
+/* 폰트설정 */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css" );
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url("http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css"); 
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+
+/* 메인 스타일 */
+#main_box {padding:0 60px;}
+.main_cont .column {margin:0 1% 15px !important;}
+.readmore {margin-top:20px;text-align:right;}
+.readmore a {font-size:13px;color:#ff3924;padding:3px 30px 7px 0;background:url(/wp-content/uploads/2016/10/readmore_icon.png) right top no-repeat;display:block;}
+.readmore a:hover {color:#ff3924;}
+
+/* 서브 페이지 */
+.left_m_tit {margin:0;padding:50px 0;text-align:center;color:#fff;font-size:26px;background:#0d2948;}
+.widget-area{padding:0;}
+.widget {margin:0;padding:0;}
 

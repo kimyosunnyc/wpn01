@@ -12,11 +12,11 @@ Version: 		1.6
 -------------------------------------------------------------- */
 
 /* 전체적용 */
-body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
-h1, h2, h3, h4, h5, h6{font-weight:bold;}
-
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic", 'Century Gothic',sans-serif !important ; }
 ul, li{list-style:none;margin:0;padding:0;}
 a:link, a:hover, a:active, a:visited {text-decoration:none;}
+
+.list-bullet li{list-style:none;margin:0 !important;padding:0 !important;list-style-image:url('/wp-content/uploads/2016/10/bullet.png') !important;}
 
 
 /* 폰트설정 */
@@ -37,8 +37,38 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 .readmore a {font-size:13px;color:#ff3924;padding:3px 30px 7px 0;background:url(/wp-content/uploads/2016/10/readmore_icon.png) right top no-repeat;display:block;}
 .readmore a:hover {color:#ff3924;}
 
-/* 서브 페이지 */
-.left_m_tit {margin:0;padding:50px 0;text-align:center;color:#fff;font-size:26px;background:#0d2948;}
+/* 위젯 - 좌측메뉴 */
+.left_m_tit {margin:0;padding:60px 0;text-align:center;color:#fff;font-size:26px;background:#0d2948;}
 .widget-area{padding:0;}
 .widget {margin:0;padding:0;}
+
+/* 서브 페이지 */
+#Content {width:92%;margin:0 auto;}
+.with_aside .sections_group {width:78% !important;padding-top:0 !important;}
+.sub_tit {padding-top:55px;border-bottom:1px solid #d1d1d1;background:url(/wp-content/uploads/2016/10/sub_title_bg_img.png) top right no-repeat;background-size:400px 150px;}
+.sub_tit_txt{color:#004786;}
+
+.cont_tit_1{background:url(/wp-content/uploads/2016/10/title_icon.png) top 2px left no-repeat;padding:10px 0 0 10px;background-size:12px 12px;}
+.cont_tit_2{background:url(/wp-content/uploads/2016/10/cont_sub_tit_icon_b.png) top left no-repeat;background-size:20px 20px;padding-left:25px;margin-top:10px;color:#0d2948;}
+.cont_tit_3{background:#ededed;padding:5px 10px;}
+.cont_box {padding:27px 0 10px 0;border:1px solid #d8d8d8;border-radius: 10px;background:#f0f0f0;margin-bottom:15px;}
+
+.history_year_l{margin:10px 0 0 0;float:right;background:url(/wp-content/uploads/2016/10/history_year.png) top center no-repeat;background-size:20px 20px;padding:35px 0 0 0;}
+.history_year_r{margin:10px 0 0 0;float:left;background:url(/wp-content/uploads/2016/10/history_year.png) top center no-repeat;background-size:20px 20px;padding:35px 0 0 0;}
+
+.history_cont_1{border:1px solid #c6c6c6;border-radius:10px 0 10px 10px;padding:10px;}
+.history_cont_2{border:1px solid #c6c6c6;border-radius:0 10px 10px 10px;padding:10px;}
+
+/* MOBILE */
+@media all and (max-width: 768px) {
+.with_aside .sections_group {width:100% !important;padding-top:0 !important;}
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-device-width: 1024px){
+#Content {width:100% !important;margin:0 auto;}
+}
+
 

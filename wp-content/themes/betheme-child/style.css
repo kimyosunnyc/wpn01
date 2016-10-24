@@ -31,8 +31,6 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 
 
 /* 메인 스타일 */
-#main_box {padding:0 60px;}
-.main_cont .column {margin:0 1% 15px !important;}
 .readmore {margin-top:20px;text-align:right;}
 .readmore a {font-size:13px;color:#ff3924;padding:3px 30px 7px 0;background:url(/wp-content/uploads/2016/10/readmore_icon.png) right top no-repeat;display:block;}
 .readmore a:hover {color:#ff3924;}
@@ -43,7 +41,7 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 .widget {margin:0;padding:0;}
 
 /* 서브 페이지 */
-#Content {width:92%;margin:0 auto;}
+
 .with_aside .sections_group {width:78% !important;padding-top:0 !important;}
 .sub_tit {padding-top:55px;border-bottom:1px solid #d1d1d1;background:url(/wp-content/uploads/2016/10/sub_title_bg_img.png) top right no-repeat;background-size:400px 150px;}
 .sub_tit_txt{color:#004786;}
@@ -59,9 +57,14 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 .history_cont_1{border:1px solid #c6c6c6;border-radius:10px 0 10px 10px;padding:10px;}
 .history_cont_2{border:1px solid #c6c6c6;border-radius:0 10px 10px 10px;padding:10px;}
 
+/* FOOTER */
+#Footer #back_to_top {color:#0d2948 !important;}
+
+
 /* MOBILE */
 @media all and (max-width: 768px) {
 .with_aside .sections_group {width:100% !important;padding-top:0 !important;}
+#main_box{padding:0;}
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
